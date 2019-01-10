@@ -1,7 +1,7 @@
 # paper_to_audio
 
-In the past I have found it useful to take the text of an important paper that I need to read
-and turn it into speech so that I can listen and enhance my concentration on the paper.
+In the past I have found it useful to take the text of important papers in my field
+and turn it into speech so that I can listen and enhance my concentration while reading.
 
 Here I have created a preliminary set of scripts that scrape the text content of online papers 
 removes the references and turns it into speech.
@@ -35,7 +35,12 @@ git clone https://github.com/chrisclarkson/paper_to_audio/
 cd paper_to_audio/
 
 python scrape_cell.py --play --index_url 'https://www.cell.com/developmental-cell/fulltext/S1534-5807(18)30919-5'
+```
+Hence you must specify the link to the paper of interest after `index_url`
 
+Further controls:
+
+```
 for further instructions:
 
 python scrape_cell.py -h
