@@ -1,9 +1,9 @@
 # paper_to_audio
 
-In the past I have found it useful to take the text of important papers in my field
-and turn it into speech so that I can listen and enhance my concentration while reading.
+In the past I have found it useful, when reading important papers from my field, to turn the text into speech 
+so that I can listen while reading. This enhances my concentration while going through the paper-content.
 
-Here I have created a preliminary set of scripts that scrape the text content of online papers 
+Here I have created a preliminary set of scripts that scrape the text content of online papers, 
 removes the references and turns it into speech.
 
 The script name specifies the journal from which it can accept content.
