@@ -19,6 +19,8 @@ Personally, when doing this onmy mac, I highlight the text of interest and `righ
 
 # prerequisite python packages
 ```
+pip install requests
+
 pip install bs4 #previously called BeautifulSoup (if you use an old version, just edit to--> import BeautifulSoup) 
 
 pip install pyttsx3
