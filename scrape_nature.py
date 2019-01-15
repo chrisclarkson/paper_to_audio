@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--index_url", help="e.g. https://www.nature.com/articles/s41586-018-0836-1", type=str, default="https://www.nature.com/articles/s41586-018-0836-1")
-	parser.add_argument("--play",action='store_true')
+	parser.add_argument("--play",action='store_true',help="specifies for the audio to be played immediately- default is to not play")
 	parser.add_argument('--output_file',type=str,help="if not specified- will default to title of the paper")
 	parser.add_argument('--speech_rate',type=int,help="default is 220 wpm",default=220)
 	parser.add_argument('--voice',type=str,help='Choose any from: Alex\nalice\nalva\namelie\nanna\ncarmit\ndamayanti\ndaniel\ndiego\nellen\nfiona\nFred\nioana\njoana\njorge\njuan\nkanya\nkaren\nkyoko\nlaura\nlekha\nluca\nluciana\nmaged\nmariska\nmei-jia\nmelina\nmilena\nmoira.premium\nmonica\nnora\npaulina\nsamantha\nsara\nsatu\nsin-ji\ntessa\nthomas\nting-ting\nveena\nVictoria\nxander\nyelda\nyuna\nyuri\nzosia\nzuzana\n',default='Alex')
