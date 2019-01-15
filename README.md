@@ -32,8 +32,6 @@ pip install pyttsx3
 
 git clone https://github.com/chrisclarkson/paper_to_audio/
 
-git clone https://github.com/chrisclarkson/paper_to_audio/
-
 cd paper_to_audio/
 
 python scrape_cell.py --play --index_url 'https://www.cell.com/developmental-cell/fulltext/S1534-5807(18)30919-5'
