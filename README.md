@@ -14,7 +14,7 @@ this package does not convert its output directly to an mp3 file and instead the
 If you require for the content to be stored in an mp3 file, I suggest that you forego the `--play` option 
 and use the software that's available on your computer to convert the output text file to an 
 mp3 file. Suggestions for resources for converting text to mp3 are [here](https://alternativeto.net/software/text-to-mp3-converter/).
-Personally, when doing this onmy mac, I highlight the text of interest and `right click > services > add to itunes as a spoken track`.
+Personally, when doing this on my mac, I highlight the text of interest and `right click > services > add to itunes as a spoken track`.
 
 
 # prerequisite python packages
