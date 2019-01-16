@@ -9,11 +9,11 @@ removes the references and turns it into speech.
 The script name specifies the journal from which it can accept content.
 
 The actual conversion to audio is done with a python package called `pyttsx3`- unfortunately 
-this package does not convert its output directly to mp3 files and instead the audio just plays imediately.
+this package does not convert its output directly to an mp3 file and instead the audio just plays imediately (see below- `--play` option).
 
 If you require for the content to be stored in an mp3 file, I suggest that you forego the `--play` option 
-(see below) and use the software that's available on your computer to convert the output text file to an 
-mp3 file. Suggestions for resources to do this are [here](https://alternativeto.net/software/text-to-mp3-converter/).
+and use the software that's available on your computer to convert the output text file to an 
+mp3 file. Suggestions for resources for converting text to mp3 are [here](https://alternativeto.net/software/text-to-mp3-converter/).
 Personally, when doing this onmy mac, I highlight the text of interest and `right click > services > add to itunes as a spoken track`.
 
 
