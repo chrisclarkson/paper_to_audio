@@ -15,7 +15,7 @@ if __name__ == "__main__":
 	print('voice '+args.voice)
 
 	response = requests.get(args.index_url)
-	soup = bs4.BeautifulSoup(response.text)
+	soup = bs4.BeautifulSoup(response.text,'html.parser')
 	connect={}
 	idx = []
 	a = soup.find_all('div', attrs={'data-article-body': 'true'})[0].text

@@ -1,0 +1,42 @@
+
+
+In the past 3 years, we have seen a flurry of publications on single-cell RNA sequencing
+         (RNA-seq) analyses of pancreatic islets from mouse and human. This technology holds
+         the promise to refine cell-type signatures and discover cellular heterogeneity among
+         the canonical endocrine cell types such as the glucagon-producing alpha and insulin-producing
+         beta cells, going as far as suggesting new subtypes. In addition, single-cell RNA-seq
+         has the ability to characterize rare endocrine cell types that are not captured by
+         prior bulk analysis. With transcriptomics data from individual endocrine cells, cellular
+         states can be profiled both along developmental processes and during the emergence
+         of metabolic diseases. However, the promises of this new technology have not yet been
+         met in full. While the methodology for the first time enabled the transcriptional
+         definition of rare endocrine cell types such as ghrelin-producing epsilon cells, some of
+         the conclusions regarding cell-type-specific gene expression changes in type 2 diabetes
+         might need to be revisited once larger sample sizes become available. Data generation
+         and analysis are continuously improving single-cell RNA-seq approaches and are helping
+         us to understand the (mal)adaptations of the islet cells during development, metabolic
+         challenge, and disease.
+      
+
+
+
+
+
+Keywords
+
+
+
+single-cell RNA-seq
+
+
+islets
+
+
+beta cell
+
+
+beta cell heterogeneity
+
+
+
+

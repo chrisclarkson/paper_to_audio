@@ -13,7 +13,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	print('voice '+args.voice)
 	response = requests.get(args.index_url)
-	soup = bs4.BeautifulSoup(response.text)
+	soup = bs4.BeautifulSoup(response.text,'html.parser')
 	mystring = soup.find_all('div', attrs={'class': 'col-md-7 col-lg-9 article__sections'})[0].text
 	#extra_string=soup.find_all('section', {'id': re.compile(r'sec')})
 	# full=''
