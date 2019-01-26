@@ -93,11 +93,11 @@ if __name__ == "__main__":
 
 	if args.output_file:
 		file=open(args.output_file,'w')
-		file.write(x.encode('utf8'))
+		file.write(str(x))
 		file.close()
 	else:
-		file=open(header+'.txt','w')
-		file.write(x.encode('utf8'))
+		file=open(header+b'.txt','w')
+		file.write(str(x))
 		file.close()
 
 	if args.play:

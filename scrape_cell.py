@@ -93,18 +93,18 @@ if __name__ == "__main__":
 	# x2 = re.sub('[A-Z][0-100]+', '', x1)
 	# x3 = re.sub('[A-Z][0-100]+', '', x2)
 	#x = re.sub(r' ,', '', x)
-	x = re.sub(ur'\u03b1', 'alpha', x)
-	x = re.sub(ur'\u03b2', 'beta', x)
-	x = re.sub(ur'\u025b', 'epsilon', x)
-	x = re.sub(ur'\u2022', '\n\n', x)
+	x = re.sub(u'\u03b1', 'alpha', x)
+	x = re.sub(u'\u03b2', 'beta', x)
+	x = re.sub(u'\u025b', 'epsilon', x)
+	x = re.sub(u'\u2022', '\n\n', x)
 	x = re.sub(r'\xd7', 'by', x)
 	x = re.sub(r'\xa0', ' ', x)
-	x = re.sub(ur'\u2212', ' to the minus ', x)
-	x = re.sub(ur'\u2013', ' to ', x)
-	x = re.sub(ur'\u223c', ' approximately ', x)
-	x = re.sub(ur'\u201c', '', x)
-	x = re.sub(ur'\u201d', '', x)
-	x = re.sub(ur'\u2014', '-', x)
+	x = re.sub(u'\u2212', ' to the minus ', x)
+	x = re.sub(u'\u2013', ' to ', x)
+	x = re.sub(u'\u223c', ' approximately ', x)
+	x = re.sub(u'\u201c', '', x)
+	x = re.sub(u'\u201d', '', x)
+	x = re.sub(u'\u2014', '-', x)
 	pattern="View Large\n                                            Image\n                                        Figure ViewerDownload Hi-res\n                                            image\n                                        Download (PPT)"
 	x=x.replace(pattern,'')
 	pattern="View Large\n                                            Image\n                                        Figure ViewerDownload Hi-res\n                                            image\n                                        Download"
@@ -148,11 +148,11 @@ if __name__ == "__main__":
 	#print(x.encode('utf8'))
 	if args.output_file:
 		file=open(args.output_file,'w')
-		file.write(x.encode('utf8'))
+		file.write(str(x))
 		file.close()
 	else:
-		file=open(header+'.txt','w')
-		file.write(x.encode('utf8'))
+		file=open(header+b'.txt','w')
+		file.write(str(x))
 		file.close()
 
 	if args.play:
