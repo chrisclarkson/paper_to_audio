@@ -5,7 +5,7 @@ if __name__ == "__main__":
 	import requests
 	import bs4
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--index_url", help="e.g. http://stm.sciencemag.org/content/11/474/eaau6550", type=str, default="http://stm.sciencemag.org/content/11/477/eaat3356")
+	parser.add_argument("--index_url", help="e.g. http://stm.sciencemag.org/content/11/477/eaat3356", type=str, default="http://stm.sciencemag.org/content/11/477/eaat3356")
 	parser.add_argument("--play",action='store_true')
 	parser.add_argument('--output_file',type=str,help="if not specified- will default to title of the paper")
 	parser.add_argument('--speech_rate',type=int,help="default is 220 wpm",default=220)
