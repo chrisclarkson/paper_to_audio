@@ -147,12 +147,12 @@ if __name__ == "__main__":
 
 	#print(x.encode('utf8'))
 	if args.output_file:
-		file=open(args.output_file,'w')
-		file.write(str(x))
+		file=open(args.output_file,'wb')
+		file.write(x.encode('utf8'))
 		file.close()
 	else:
-		file=open(header+b'.txt','w')
-		file.write(str(x))
+		file=open(header+b'.txt','wb')
+		file.write(str(x.encode('utf8')))
 		file.close()
 
 	if args.play:
