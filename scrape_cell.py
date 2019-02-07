@@ -152,7 +152,7 @@ if __name__ == "__main__":
 		file.close()
 	else:
 		file=open(header+b'.txt','wb')
-		file.write(str(x.encode('utf8')))
+		file.write(x.encode('utf8'))
 		file.close()
 
 	if args.play:
