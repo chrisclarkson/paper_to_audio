@@ -20,7 +20,7 @@ if __name__ == "__main__":
 	idx = []
 	a = soup.find_all('div', attrs={'data-article-body': 'true'})[0].text
 	header=soup.find(itemprop="name headline").text.encode('utf8')
-	print('header '+ header)
+	print(b'header '+ header)
 	def remove_bracketted_content(test_str):
 		ret = ''
 		skip1c = 0
