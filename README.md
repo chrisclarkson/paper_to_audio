@@ -16,6 +16,7 @@ and use the software that's available on your computer to convert the output tex
 mp3 file. Suggestions for resources for converting text to mp3 are [here](https://alternativeto.net/software/text-to-mp3-converter/).
 Personally, when doing this on my mac, I highlight the text of interest and `right click > services > add to itunes as a spoken track`.
 
+ 
 
 # prerequisite python packages
 ```
@@ -72,3 +73,6 @@ optional arguments:
                         zosia zuzana
   ```
                         
+#NOTE: I have noticed that the open source voices on linux do not sound very good....
+I am still trying to find a way around this... The best solution that I can find (for now) is to install a separate TTS software called 'Festival' and use the code: `cat example.txt | festival --tts`
+
