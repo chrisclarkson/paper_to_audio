@@ -73,7 +73,8 @@ optional arguments:
                         zosia zuzana
   ```
                         
-#NOTE: I have noticed that the open source voices on linux do not sound very good....
+# NOTE (use on linux): 
+I have noticed that the open source voices on linux do not sound very good....
 I am still trying to find a way around this... The best solution that I can find (for now) is to install a separate TTS software called 'Festival': `sudo apt-get install festival` 
 and implement the TTS step as follows:
 `cat downloaded_paper.txt | festival --tts`.
