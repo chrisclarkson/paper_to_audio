@@ -74,5 +74,5 @@ optional arguments:
   ```
                         
 #NOTE: I have noticed that the open source voices on linux do not sound very good....
-I am still trying to find a way around this... The best solution that I can find (for now) is to install a separate TTS software called 'Festival' and use the code: `cat example.txt | festival --tts`
+I am still trying to find a way around this... The best solution that I can find (for now) is to install a separate TTS software called 'Festival': `sudo apt-get install festival; cat downloaded_paper.txt | festival --tts`.
 
