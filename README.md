@@ -1,4 +1,4 @@
-# paper_to_audio
+# paper_to_audio (now available as chrome extension: https://chrome.google.com/webstore/detail/paper-to-audio/djncfliejhhejjgbhcopflpnlaeicnco?authuser=0)
 
 In the past I have found it useful, when reading important papers from my field, to turn the text into speech 
 so that I can listen while reading. This enhances my concentration while going through the paper-content.
